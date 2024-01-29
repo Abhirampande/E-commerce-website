@@ -323,6 +323,78 @@ body{
 #product1 .change{
    color: #51728b;
 }
+/* Fashion banner/lady with coat*/
+#fashion{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#fashion .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("images/Fashion\ Promotion\ Banner.png");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 45px 60px;
+}
+
+#fashion .banner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("images/Creative\ Fashion\ Banner.png");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 45px 45px 45px 60px;
+}
+
+#fashion h4{
+    color: #cce7d0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#fashion h2{
+    color: #cce7d0;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#fashion span{
+    color: #cce7d0;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+#fashion .banner .white:hover{
+    background: #088178;
+    border: 1px solid #088178;
+
+}
+#fashion .banner2:hover button{
+    background: #088178;
+    border: 1px solid #088178;
+}
 
    
 
