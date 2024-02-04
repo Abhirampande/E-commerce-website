@@ -479,6 +479,9 @@ button.white{
     align-items: center;
     flex-wrap: wrap;
     background-image: url(/images/ban.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
 }
    
 
