@@ -608,6 +608,22 @@ footer .copyright{
     position:relative;
     bottom: 57px;
 }
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #465b52;
+    font-size: 25px;
+    font-weight: 600;
+}
+#pagination a:hover{
+    color: #86e7e1;
+}
+
 
 
 
