@@ -640,7 +640,7 @@ footer .copyright{
     cursor: pointer;
 }
 #prodetails .single-pro-details{
-    width: 50px;
+    width: 50%;
     padding-top: 30px;
 }
 #prodetails .single-pro-details h4{
@@ -667,6 +667,9 @@ footer .copyright{
 #prodetails .single-pro-details button{
     background: #dbb9da;
     color: #088178;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
 }
 
 

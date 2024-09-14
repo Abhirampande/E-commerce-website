@@ -50,7 +50,7 @@
         </div>
 
         <div class="single-pro-details">
-            <h6>Half Sleeve T-Shirt</h6>
+            <h5>Half Sleeve T-Shirt</h5>
             <h4>Men's Wear</h4>
             <h2>500 Rs</h2>
             <select>
@@ -74,6 +74,110 @@
         </div>    
     </section>
 
+    <section id="product1" class="section-p1"> 
+        <h2 class="change">New Arivals</h2>
+        <p>Summer Collection Only For You</p>
+        <div class="pro-container">
+            <div class="pro" >
+                <img src="images/man.jpg" alt="shirt">
+                <div class="des">
+                    <span>Formal White</span>
+                    <h5>Slim Fit Formal Men Wear</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>700 Rs</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/handsome-man.jpg" alt="shirt">
+                <div class="des">
+                    <span>Caual Shirt</span>
+                    <h5>Blue Denim Casual</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>900 Rs</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/woman.jpg" alt="jacket">
+                <div class="des">
+                    <span>Jacket</span>
+                    <h5>Black Leather Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>1000 Rs</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/attractive.jpg" alt="denim">
+                <div class="des">
+                    <span>Black Denim</span>
+                    <h5>Levis Black Denim Unisex</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>1500 Rs</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/pexels.jpg" alt="jeans">
+                <div class="des">
+                    <span>Denim Jeans</span>
+                    <h5>Blue Distres Demin</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>1200 Rs</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/gym.jpg" alt="gym">
+                <div class="des">
+                    <span>Gym Wear</span>
+                    <h5>Gym Activewear</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>900 Rs</h4>
+     
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
     <section id="newsletter" class="section-p1 section-m1">
         <div class="newstext">
             <h4>Sign up for Newsletter</h4>
@@ -84,6 +188,7 @@
             <button class="normal">Sign Up</button>
         </div>
     </section>
+    
 
     <footer class="section-p1">
         <div class="col">
@@ -136,6 +241,24 @@
             <p>@ 2021, SHOPING CART.INC</p>
         </div>
     </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].oneclick = function() {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].oneclick = function() {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].oneclick = function() {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].oneclick = function() {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
