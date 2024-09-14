@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/ Nav-->
+    <section id="header">
+        <a href="#"><img src="images/logo.png" class="logo" alt=""  height="70px" width="70px"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><img src="images/shoping.png" class="fas fa-shopping-bag" style="color: black;"></img></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-shopping-bag" style="color: black;"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+           <img src="images/f1.jpg" width="100%" id="MainImg" alt="image"> 
+        
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="images/f1.jpg" width="100%" class="small-img" alt="img"> 
+                </div>    
+                <div class="small-img-col">
+                    <img src="images/f2.jpg" width="100%" class="small-img" alt="img"> 
+                </div>   
+                <div class="small-img-col">
+                    <img src="images/f3.jpg" width="100%" class="small-img" alt="img"> 
+                </div>   
+                <div class="small-img-col">
+                    <img src="images/f4.jpg" width="100%" class="small-img" alt="img"> 
+                </div>   
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Half Sleeve T-Shirt</h6>
+            <h4>Men's Wear</h4>
+            <h2>500 Rs</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>They are typically made of cotton textile in a stockinette
+                      or jersey knit, which has a distinctively pliable texture compared 
+                      to shirts made of woven cloth. Some modern versions have a body made 
+                      from a continuously knitted tube, produced on a circular knitting machine, 
+                      such that the torso has no side seams. The manufacture of T-shirts has become
+                      highly automated and may include cutting fabric with a laser or a water jet.
+            </span>
+        </div>    
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for Newsletter</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="/images/bag_11539673.png" alt="logo" height="80px" width="80px">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 42 East Mumbai</p>
+            <p><strong>Phone:</strong>+91 8092225252</p>
+            <p><strong>Hours</strong>10:20, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+            <a href="#">Log Out</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From Google Play or App Store </p>
+            <div class="row">
+                <img src="/images/play.jpg" alt="logo">
+                <img src="/images/app.jpg"  alt="logo">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="/images/pay.png">
+        </div>
+        <div class="copyright">
+            <p>@ 2021, SHOPING CART.INC</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
